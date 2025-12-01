@@ -14,3 +14,4 @@ serviceAccount:
 
 service:
   type: LoadBalancer
+  loadBalancerClass: service.k8s.aws/nlb
