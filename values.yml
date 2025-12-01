@@ -15,3 +15,7 @@ serviceAccount:
 service:
   type: LoadBalancer
   loadBalancerClass: service.k8s.aws/nlb
+
+logs:
+  access:
+    enabled: true
