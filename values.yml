@@ -4,7 +4,7 @@ providers:
 
   kubernetesIngress:
     enabled: true
-    ingressClass: okteto-internal
+    ingressClass: okteto-traefik
 
 rbac:
   enabled: false
