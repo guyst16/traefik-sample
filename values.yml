@@ -13,5 +13,6 @@ serviceAccount:
   name: "default"
 
 service:
+  enabled: false
   type: LoadBalancer
   loadBalancerClass: service.k8s.aws/nlb
