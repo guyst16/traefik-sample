@@ -11,3 +11,6 @@ rbac:
 
 serviceAccount:
   name: "default"
+
+service:
+  type: LoadBalancer
